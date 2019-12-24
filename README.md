@@ -1,9 +1,9 @@
 # ADC Mezzanine Board
  ADS7886 ADC Mezzanine Board for PHYS150
  
- ![Scope image](scopeshot.jpg)
+ ![Board Render](images/3D-front.png)
 
- KiCad PCB files are contained in the "ads7886_PCB" folder. If you do not have KiCad, see the "images" folder for the schematic and PCB. "pi_ADC.py" is a basic script for interfacing with the ADC board using a Raspberry Pi.
+ KiCad PCB files are contained in the "ads7886_PCB" folder. If you do not have KiCad, see the "images" folder for the schematic and PCB. "pi_ADC.py" is a basic python script for interfacing with the ADC board using a Raspberry Pi.
  
  ## The Hardware
  
@@ -29,6 +29,9 @@ The datasheet for the ADS7886 is available [here](http://www.ti.com/lit/ds/symli
 There are 4 test points on the board. **CS** is the chip select input to the ADC. **Vin** is the analog input to the ADC, the voltage that is being measured. **PD** is across the trimpot from **Vin** and can be used to measure the value of **R2**. **VDD** is connected to the board's 3.3V power supply.
 
  ## The Software
+ 
+  ![Scope image](images/scopeshot.jpg)
+  
  This script listens for output data from the ADC and saves it to a file named "ADC_Data.txt".
  
  The code is heavily commented, so for any fine details it's probably better to check there. 
