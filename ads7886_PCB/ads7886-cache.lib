@@ -1,0 +1,239 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 74xGxx_74LVC1G14
+#
+DEF 74xGxx_74LVC1G14 U 0 40 Y Y 1 F N
+F0 "U" -100 150 50 H V C CNN
+F1 "74xGxx_74LVC1G14" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS 74AHC1G14 74AHCT1G14 74AUC1G14 74AUP1G14
+$FPLIST
+ SOT*
+ SG-*
+$ENDFPLIST
+DRAW
+P 3 0 1 0 -75 -25 -50 -25 -50 25 N
+P 4 0 1 10 -150 100 -150 -100 100 0 -150 100 N
+P 4 0 1 0 -100 -25 -75 -25 -75 25 -25 25 N
+X ~ 2 -300 0 150 R 40 40 1 1 I
+X GND 3 0 -100 0 D 40 40 1 1 W N
+X ~ 4 250 0 150 L 40 40 1 1 O I
+X VCC 5 0 100 0 U 40 40 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Amplifier_Operational_OPA355NA
+#
+DEF Amplifier_Operational_OPA355NA U 0 5 Y Y 1 F N
+F0 "U" 150 150 50 H V L CNN
+F1 "Amplifier_Operational_OPA355NA" 150 -150 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23-6" 150 -250 50 H I L CNN
+F3 "" 150 150 50 H I C CNN
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X ~ 1 300 0 100 L 50 50 1 1 O
+X V- 2 -100 -300 150 U 50 50 1 1 W
+X + 3 -300 100 100 R 50 50 1 1 I
+X - 4 -300 -100 100 R 50 50 1 1 I
+X ENABLE 5 0 -300 200 U 50 30 1 1 I
+X V+ 6 -100 300 150 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Small
+#
+DEF Device_R_Small R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Regulator_Linear_LP5907MFX-3.3
+#
+DEF Regulator_Linear_LP5907MFX-3.3 U 0 20 Y Y 1 F N
+F0 "U" -150 250 50 H V C CNN
+F1 "Regulator_Linear_LP5907MFX-3.3" 250 250 50 H V C CNN
+F2 "Package_TO_SOT_SMD:SOT-23-5" 0 350 50 H I C CNN
+F3 "" 0 500 50 H I C CNN
+ALIAS LP5907MFX-1.5 LP5907MFX-1.8 LP5907MFX-2.5 LP5907MFX-2.8 LP5907MFX-2.85 LP5907MFX-2.9 LP5907MFX-3.0 LP5907MFX-3.1 LP5907MFX-3.2 LP5907MFX-3.3 LP5907MFX-4.5
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+S -200 -200 200 200 0 1 10 f
+X IN 1 -300 100 100 R 50 50 0 1 W
+X GND 2 0 -300 100 U 50 50 0 1 W
+X EN 3 -300 0 100 R 50 50 0 1 I
+X NC 4 200 0 100 L 50 50 0 1 N N
+X OUT 5 300 100 100 L 50 50 0 1 w
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_2214S-08SG-85
+#
+DEF SamacSys_Parts_2214S-08SG-85 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "SamacSys_Parts_2214S-08SG-85" 650 200 50 H V L CNN
+F2 "SHDR8W60P254_2X4_1016X508X850P" 650 100 50 H I L CNN
+F3 "http://www.farnell.com/datasheets/1697510.pdf" 650 0 50 H I L CNN
+F4 "2.54mm Dual Row 8 Pin PCB Mount Socket" 650 -100 50 H I L CNN "Description"
+F5 "8.5" 650 -200 50 H I L CNN "Height"
+F6 "MULTICOMP" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "2214S-08SG-85" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 U
+X 2 2 800 0 200 L 50 50 0 0 U
+X 3 3 0 -100 200 R 50 50 0 0 U
+X 4 4 800 -100 200 L 50 50 0 0 U
+X 5 5 0 -200 200 R 50 50 0 0 U
+X 6 6 800 -200 200 L 50 50 0 0 U
+X 7 7 0 -300 200 R 50 50 0 0 U
+X 8 8 800 -300 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_ADS7886SDBVT
+#
+DEF SamacSys_Parts_ADS7886SDBVT IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "SamacSys_Parts_ADS7886SDBVT" 950 200 50 H V L CNN
+F2 "SOT95P280X145-6N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ads7886.pdf" 950 0 50 H I L CNN
+F4 "ADC Single SAR 1MSPS 12-Bit Serial 6-Pin" 950 -100 50 H I L CNN "Description"
+F5 "1.45" 950 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ADS7886SDBVT" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-ADS7886SDBVT" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-ADS7886SDBVT" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "6607253P" 950 -700 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/6607253P" 950 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+X VDD 1 0 0 200 R 50 50 0 0 W
+X GND 2 0 -100 200 R 50 50 0 0 W
+X VIN 3 0 -200 200 R 50 50 0 0 I
+X SCLK 4 1100 -200 200 L 50 50 0 0 I
+X SDO 5 1100 -100 200 L 50 50 0 0 U
+X ~CS 6 1100 0 200 L 50 50 0 0 I
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_BAT_63-02V_H6327
+#
+DEF SamacSys_Parts_BAT_63-02V_H6327 D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "SamacSys_Parts_BAT_63-02V_H6327" 450 100 50 H V L CNN
+F2 "SODFL1608X59N" 450 0 50 H I L CNN
+F3 "http://fr.rs-online.com/web/p/diodes-de-redressement-et-schottky/1107456/" 450 -100 50 H I L CNN
+F4 "Infineon BAT 63-02V H6327 SMT Schottky Diode, 3V 100mA, 2-Pin SC-79" 450 -200 50 H I L CNN "Description"
+F5 "0.59" 450 -300 50 H I L CNN "Height"
+F6 "Infineon" 450 -400 50 H I L CNN "Manufacturer_Name"
+F7 "BAT 63-02V H6327" 450 -500 50 H I L CNN "Manufacturer_Part_Number"
+F8 "726-BAT6302VH6327" 450 -600 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=726-BAT6302VH6327" 450 -700 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 2 0 1 6 200 100 200 -100 N
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+X ~ 1 0 0 200 R 50 50 0 0 U
+X ~ 2 600 0 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_TC33X-2-101E
+#
+DEF SamacSys_Parts_TC33X-2-101E R 0 30 Y Y 1 F N
+F0 "R" 950 300 50 H V L CNN
+F1 "SamacSys_Parts_TC33X-2-101E" 950 200 50 H V L CNN
+F2 "TC33X-2_1" 950 100 50 H I L CNN
+F3 "https://www.bourns.com/pdfs/TC33.pdf" 950 0 50 H I L CNN
+F4 "SMD single turn trimmer 100R 25% top adj Bourns TC33 Series SMD Trimmer Resistor with Solder Pad Terminations, 100 +/-25% 0.1W +/-250ppm/C Top Adjust" 950 -100 50 H I L CNN "Description"
+F5 "Bourns" 950 -300 50 H I L CNN "Manufacturer_Name"
+F6 "TC33X-2-101E" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "652-TC33X-2-101E" 950 -500 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.com/Search/Refine.aspx?Keyword=652-TC33X-2-101E" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F9 "7432485P" 950 -700 50 H I L CNN "RS Part Number"
+F10 "http://uk.rs-online.com/web/p/products/7432485P" 950 -800 50 H I L CNN "RS Price/Stock"
+F11 "70155234" 950 -900 50 H I L CNN "Allied_Number"
+F12 "https://www.alliedelec.com/bourns-tc33x-2-101e/70155234/" 950 -1000 50 H I L CNN "Allied Price/Stock"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+X CCW 1 0 0 200 R 50 50 0 0 P
+X WIPER 2 0 -100 200 R 50 50 0 0 P
+X CW 3 1100 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ads7886-rescue_TEST-ads7886-rescue
+#
+DEF ads7886-rescue_TEST-ads7886-rescue TP 0 40 N N 1 F N
+F0 "TP" 0 300 50 H V C BNN
+F1 "ads7886-rescue_TEST-ads7886-rescue" 0 250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 200 -50 150 0 100 50 150 0 200 0 200 N
+X ~ 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_GNDA
+#
+DEF power_GNDA #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GNDA" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GNDA 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GNDD
+#
+DEF power_GNDD #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GNDD" 0 -125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 -60 50 -80 0 1 10 F
+P 2 0 1 0 0 0 0 -60 N
+X GNDD 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library

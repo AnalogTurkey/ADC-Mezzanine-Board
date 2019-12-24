@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Jonathan Chandler\Documents\KiCad\ads7886\ads7886.sch</source>
+    <date>11/15/2019 10:03:39</date>
+    <tool>Eeschema (5.1.4)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ads7886.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="TP1">
+      <value>TEST</value>
+      <footprint>Connectors:Pin_d1.0mm_L10.0mm</footprint>
+      <libsource lib="ads7886-rescue" part="TEST" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB9260A</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TEST</value>
+      <footprint>Connectors:Pin_d1.0mm_L10.0mm</footprint>
+      <libsource lib="ads7886-rescue" part="TEST" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB9379A</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC143B8</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC15109</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC1BD1C</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TEST</value>
+      <footprint>Connectors:Pin_d1.0mm_L10.0mm</footprint>
+      <libsource lib="ads7886-rescue" part="TEST" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA4EC1</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>TEST</value>
+      <footprint>Connectors:Pin_d1.0mm_L10.0mm</footprint>
+      <libsource lib="ads7886-rescue" part="TEST" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA4F16</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LP5907MFX-3.3</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5_HandSoldering</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lp5907.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LP5907MFX-3.3" description="250-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCE215C</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>OPA355NA</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/opa355.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="OPA355NA" description="200MHz, CMOS, Operational amplifier, with shutdown, SOT-23-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD2FBDD</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD614BC</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA0B18</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA0044</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>TC33X-2-101E</value>
+      <footprint>SamacSys_Parts:TC33X-2_1</footprint>
+      <datasheet>https://www.bourns.com/pdfs/TC33.pdf</datasheet>
+      <fields>
+        <field name="Allied Price/Stock">https://www.alliedelec.com/bourns-tc33x-2-101e/70155234/</field>
+        <field name="Allied_Number">70155234</field>
+        <field name="Description">SMD single turn trimmer 100R 25% top adj Bourns TC33 Series SMD Trimmer Resistor with Solder Pad Terminations, 100 +/-25% 0.1W +/-250ppm/C Top Adjust</field>
+        <field name="Manufacturer_Name">Bourns</field>
+        <field name="Manufacturer_Part_Number">TC33X-2-101E</field>
+        <field name="Mouser Part Number">652-TC33X-2-101E</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=652-TC33X-2-101E</field>
+        <field name="RS Part Number">7432485P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/7432485P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TC33X-2-101E" description="SMD single turn trimmer 100R 25% top adj Bourns TC33 Series SMD Trimmer Resistor with Solder Pad Terminations, 100 +/-25% 0.1W +/-250ppm/C Top Adjust"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD87A99</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>BAT_63-02V_H6327</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://fr.rs-online.com/web/p/diodes-de-redressement-et-schottky/1107456/</datasheet>
+      <fields>
+        <field name="Description">Infineon BAT 63-02V H6327 SMT Schottky Diode, 3V 100mA, 2-Pin SC-79</field>
+        <field name="Height">0.59</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">BAT 63-02V H6327</field>
+        <field name="Mouser Part Number">726-BAT6302VH6327</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=726-BAT6302VH6327</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="BAT_63-02V_H6327" description="Infineon BAT 63-02V H6327 SMT Schottky Diode, 3V 100mA, 2-Pin SC-79"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD8A14E</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>ADS7886SDBVT</value>
+      <footprint>SamacSys_Parts:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ads7886.pdf</datasheet>
+      <fields>
+        <field name="Description">ADC Single SAR 1MSPS 12-Bit Serial 6-Pin</field>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">ADS7886SDBVT</field>
+        <field name="Mouser Part Number">595-ADS7886SDBVT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-ADS7886SDBVT</field>
+        <field name="RS Part Number">6607253P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/6607253P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="ADS7886SDBVT" description="ADC Single SAR 1MSPS 12-Bit Serial 6-Pin"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD8CEB2</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>2214S-08SG-85</value>
+      <footprint>SamacSys_Parts:SHDR8W60P254_2X4_1016X508X850P</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1697510.pdf</datasheet>
+      <fields>
+        <field name="Description">2.54mm Dual Row 8 Pin PCB Mount Socket</field>
+        <field name="Height">8.5</field>
+        <field name="Manufacturer_Name">MULTICOMP</field>
+        <field name="Manufacturer_Part_Number">2214S-08SG-85</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="2214S-08SG-85" description="2.54mm Dual Row 8 Pin PCB Mount Socket"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDC04C9</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>2214S-08SG-85</value>
+      <footprint>SamacSys_Parts:SHDR8W60P254_2X4_1016X508X850P</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1697510.pdf</datasheet>
+      <fields>
+        <field name="Description">2.54mm Dual Row 8 Pin PCB Mount Socket</field>
+        <field name="Height">8.5</field>
+        <field name="Manufacturer_Name">MULTICOMP</field>
+        <field name="Manufacturer_Part_Number">2214S-08SG-85</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="2214S-08SG-85" description="2.54mm Dual Row 8 Pin PCB Mount Socket"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDC85D2</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA85F8</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>74LVC1G14</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5_HandSoldering</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <libsource lib="74xGxx" part="74LVC1G14" description="Single Schmitt NOT Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE14786</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA6EFC</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDF72AE</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE39DE5</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE53C9D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xGxx" part="74LVC1G14">
+      <aliases>
+        <alias>74AHC1G14</alias>
+        <alias>74AHCT1G14</alias>
+        <alias>74AUC1G14</alias>
+        <alias>74AUP1G14</alias>
+      </aliases>
+      <description>Single Schmitt NOT Gate, Low-Voltage CMOS</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <footprints>
+        <fp>SOT*</fp>
+        <fp>SG-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC1G14</field>
+      </fields>
+      <pins>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="OPA355NA">
+      <description>200MHz, CMOS, Operational amplifier, with shutdown, SOT-23-6</description>
+      <docs>http://www.ti.com/lit/ds/symlink/opa355.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OPA355NA</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="ENABLE" type="input"/>
+        <pin num="6" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LP5907MFX-1.2">
+      <aliases>
+        <alias>LP5907MFX-1.5</alias>
+        <alias>LP5907MFX-1.8</alias>
+        <alias>LP5907MFX-2.5</alias>
+        <alias>LP5907MFX-2.8</alias>
+        <alias>LP5907MFX-2.85</alias>
+        <alias>LP5907MFX-2.9</alias>
+        <alias>LP5907MFX-3.0</alias>
+        <alias>LP5907MFX-3.1</alias>
+        <alias>LP5907MFX-3.2</alias>
+        <alias>LP5907MFX-3.3</alias>
+        <alias>LP5907MFX-4.5</alias>
+      </aliases>
+      <description>250-mA Ultra-Low-Noise Low-IQ LDO, 1.2V, SOT-23</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lp5907.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LP5907MFX-1.2</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="2214S-08SG-85">
+      <description>2.54mm Dual Row 8 Pin PCB Mount Socket</description>
+      <docs>http://www.farnell.com/datasheets/1697510.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">2214S-08SG-85</field>
+        <field name="Footprint">SHDR8W60P254_2X4_1016X508X850P</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1697510.pdf</field>
+        <field name="Description">2.54mm Dual Row 8 Pin PCB Mount Socket</field>
+        <field name="Height">8.5</field>
+        <field name="Manufacturer_Name">MULTICOMP</field>
+        <field name="Manufacturer_Part_Number">2214S-08SG-85</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="2" name="2" type="unspc"/>
+        <pin num="3" name="3" type="unspc"/>
+        <pin num="4" name="4" type="unspc"/>
+        <pin num="5" name="5" type="unspc"/>
+        <pin num="6" name="6" type="unspc"/>
+        <pin num="7" name="7" type="unspc"/>
+        <pin num="8" name="8" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="ADS7886SDBVT">
+      <description>ADC Single SAR 1MSPS 12-Bit Serial 6-Pin</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ads7886.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ADS7886SDBVT</field>
+        <field name="Footprint">SOT95P280X145-6N</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ads7886.pdf</field>
+        <field name="Description">ADC Single SAR 1MSPS 12-Bit Serial 6-Pin</field>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">ADS7886SDBVT</field>
+        <field name="Mouser Part Number">595-ADS7886SDBVT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-ADS7886SDBVT</field>
+        <field name="RS Part Number">6607253P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/6607253P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VIN" type="input"/>
+        <pin num="4" name="SCLK" type="input"/>
+        <pin num="5" name="SDO" type="unspc"/>
+        <pin num="6" name="~CS" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="BAT_63-02V_H6327">
+      <description>Infineon BAT 63-02V H6327 SMT Schottky Diode, 3V 100mA, 2-Pin SC-79</description>
+      <docs>http://fr.rs-online.com/web/p/diodes-de-redressement-et-schottky/1107456/</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT_63-02V_H6327</field>
+        <field name="Footprint">SODFL1608X59N</field>
+        <field name="Datasheet">http://fr.rs-online.com/web/p/diodes-de-redressement-et-schottky/1107456/</field>
+        <field name="Description">Infineon BAT 63-02V H6327 SMT Schottky Diode, 3V 100mA, 2-Pin SC-79</field>
+        <field name="Height">0.59</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">BAT 63-02V H6327</field>
+        <field name="Mouser Part Number">726-BAT6302VH6327</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=726-BAT6302VH6327</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="unspc"/>
+        <pin num="2" name="~" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="TC33X-2-101E">
+      <description>SMD single turn trimmer 100R 25% top adj Bourns TC33 Series SMD Trimmer Resistor with Solder Pad Terminations, 100 +/-25% 0.1W +/-250ppm/C Top Adjust</description>
+      <docs>https://www.bourns.com/pdfs/TC33.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">TC33X-2-101E</field>
+        <field name="Footprint">TC33X-2_1</field>
+        <field name="Datasheet">https://www.bourns.com/pdfs/TC33.pdf</field>
+        <field name="Description">SMD single turn trimmer 100R 25% top adj Bourns TC33 Series SMD Trimmer Resistor with Solder Pad Terminations, 100 +/-25% 0.1W +/-250ppm/C Top Adjust</field>
+        <field name="Manufacturer_Name">Bourns</field>
+        <field name="Manufacturer_Part_Number">TC33X-2-101E</field>
+        <field name="Mouser Part Number">652-TC33X-2-101E</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=652-TC33X-2-101E</field>
+        <field name="RS Part Number">7432485P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/7432485P</field>
+        <field name="Allied_Number">70155234</field>
+        <field name="Allied Price/Stock">https://www.alliedelec.com/bourns-tc33x-2-101e/70155234/</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CCW" type="passive"/>
+        <pin num="2" name="WIPER" type="passive"/>
+        <pin num="3" name="CW" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ads7886-rescue" part="TEST">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TEST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xGxx">
+      <uri>C:\Program Files\KiCad\share\kicad\library/74xGxx.lib</uri>
+    </library>
+    <library logical="Amplifier_Operational">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Amplifier_Operational.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:/Users/Jonathan Chandler/Documents/SamacSys_PCB_Library/KiCad/SamacSys_Parts.lib</uri>
+    </library>
+    <library logical="ads7886-rescue">
+      <uri>C:\Users\Jonathan Chandler\Documents\KiCad\ads7886/ads7886-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/VIN">
+      <node ref="IC1" pin="3"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="TP1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(R2-Pad3)">
+      <node ref="R2" pin="3"/>
+    </net>
+    <net code="3" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="4" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="5" name="/PD">
+      <node ref="R2" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="TP4" pin="1"/>
+    </net>
+    <net code="6" name="/SIG_IN">
+      <node ref="U2" pin="3"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="J2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="8" name="VCC">
+      <node ref="J2" pin="8"/>
+      <node ref="U3" pin="5"/>
+      <node ref="J2" pin="7"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="9" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="10" name="/CS">
+      <node ref="R5" pin="2"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="TP5" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="11" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="12" name="/LATCH">
+      <node ref="J2" pin="5"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="13" name="/VDD">
+      <node ref="IC1" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C1" pin="1"/>
+      <node ref="TP2" pin="1"/>
+    </net>
+    <net code="14" name="/SDO">
+      <node ref="IC1" pin="5"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="15" name="/SCLK">
+      <node ref="IC1" pin="4"/>
+      <node ref="J2" pin="6"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="16" name="/5VA">
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="J1" pin="7"/>
+      <node ref="U1" pin="1"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="17" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+  </nets>
+</export>
