@@ -1,4 +1,4 @@
-141677209177299
+197694924338959
 Battery_Holders
 Bulgin_BX0036_1xC
 
@@ -42105,6 +42105,90 @@ powermite3
 0
 0
 SamacSys_Parts
+5-1814832-1
+5-1814832-1
+Connector
+0
+5
+5
+SamacSys_Parts
+156120M173000
+156120M173000-5
+LED
+0
+4
+4
+SamacSys_Parts
+156125M173000
+WL-SFRW REVERSE
+LED
+0
+5
+5
+SamacSys_Parts
+733910070
+73391-0070-1
+Connector
+0
+5
+5
+SamacSys_Parts
+EC12D1524403
+EC12D1524403
+Undefined or Miscellaneous
+0
+7
+7
+SamacSys_Parts
+LTSTS310F3WT
+LTST-S310F3WT-6
+LED
+0
+4
+4
+SamacSys_Parts
+NR4018T
+NR4018T
+Inductor
+0
+2
+2
+SamacSys_Parts
+PEC11R-4XXXF-NXXXX
+PEC11R-4xxxF-Nxxxx
+Undefined or Miscellaneous
+0
+5
+5
+SamacSys_Parts
+PEC11R4220KS0024
+PEC11R-4220K-S0024‎-1
+Hardware
+0
+7
+7
+SamacSys_Parts
+PKMCS
+PKMCS
+Loudspeaker or Buzzer
+0
+2
+2
+SamacSys_Parts
+QFP50P900X900X120-49N
+IS31FL3733-TQLS4-1
+Integrated Circuit
+0
+49
+49
+SamacSys_Parts
+SHDR5W80P0X250_1X5_1400X1200X1310P
+1989777
+Connector
+0
+5
+5
+SamacSys_Parts
 SHDR8W60P254_2X4_1016X508X850P
 2214S-8
 Connector
@@ -42126,6 +42210,34 @@ Integrated Circuit
 8
 8
 SamacSys_Parts
+SOP64P600X175-28N
+FE1.1S
+Integrated Circuit
+0
+28
+28
+SamacSys_Parts
+SOT50P160X60-6N
+SOT-563 CASE 463A-01 ISSUE E
+Diode
+0
+6
+6
+SamacSys_Parts
+SOT65P210X110-6N
+SOT323-6L_1
+Integrated Circuit
+0
+6
+6
+SamacSys_Parts
+SOT95P280X100-5N
+TSOT-25_1
+Power Supply
+0
+5
+5
+SamacSys_Parts
 SOT95P280X145-6N
 DBV (R-PDSO-G6)
 Integrated Circuit
@@ -42133,12 +42245,257 @@ Integrated Circuit
 6
 6
 SamacSys_Parts
+SOT95P285X130-5N
+SOT25
+Integrated Circuit
+0
+5
+5
+SamacSys_Parts
 TC33X-2_1
 TC33X-2_1
 Resistor
 0
 3
 3
+SamacSys_Parts
+TYPEC31M17
+TYPE-C-31-M-17-1
+Connector
+0
+10
+10
+SamacSys_Parts
+WS2812C2020
+WS2812C-2020-2
+LED
+0
+4
+4
+SamacSys_Parts2
+2.54+0603resistorpad
+Resistor SMD 0603, hand soldering
+resistor 0603
+0
+4
+2
+SamacSys_Parts2
+7343-Nonpolar_Hand
+Tantalum capacitor, Case D, EIA 7343-31, 7.3x4.3x2.8mm, Hand soldering footprint
+capacitor tantalum smd
+0
+2
+2
+SamacSys_Parts2
+733910070
+73391-0070-1
+Connector
+0
+5
+2
+SamacSys_Parts2
+C_0603_HandSoldering_Nopop
+Capacitor SMD 0603, hand soldering
+capacitor 0603
+0
+2
+2
+SamacSys_Parts2
+ComboQFN+QFP(48)
+48-Lead Plastic QFN, 6x6mm, 0.4mm pitch (see https://www.onsemi.com/pub/Collateral/485BA.PDF)
+QFN 0.4
+0
+113
+49
+SamacSys_Parts2
+ComboQFN+QFP(48)-under6mil
+48-Lead Plastic QFN, 6x6mm, 0.4mm pitch (see https://www.onsemi.com/pub/Collateral/485BA.PDF)
+QFN 0.4
+0
+113
+49
+SamacSys_Parts2
+Crystal_SMD_Abracon_ABM3-2pin_5.0x3.2mm_HandSoldering
+Abracon Miniature Ceramic Smd Crystal ABM3 http://www.abracon.com/Resonators/abm3.pdf, hand-soldering, 5.0x3.2mm^2 package
+SMD SMT crystal hand-soldering
+0
+2
+2
+SamacSys_Parts2
+D_SOD-123-Hand+SS
+SOD-123
+SOD-123
+0
+2
+2
+SamacSys_Parts2
+HRO-TYPE-C-31-M-12-HandSoldering
+
+
+0
+16
+13
+SamacSys_Parts2
+Kailh_socket_MX
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+4
+2
+SamacSys_Parts2
+Kailh_socket_MX+EC11
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+9
+7
+SamacSys_Parts2
+Kailh_socket_MX_1.5U
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+2
+2
+SamacSys_Parts2
+Kailh_socket_MX_1.25U
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+2
+2
+SamacSys_Parts2
+Kailh_socket_MX_1.75U
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+2
+2
+SamacSys_Parts2
+Kailh_socket_MX_1U
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+2
+2
+SamacSys_Parts2
+Kailh_socket_MX_1U-encodermount
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+2
+2
+SamacSys_Parts2
+Kailh_socket_MX_1U_Dual
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+4
+2
+SamacSys_Parts2
+Kailh_socket_MX_2.25U
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+2
+2
+SamacSys_Parts2
+Kailh_socket_MX_2.25U-flippedstabs
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+2
+2
+SamacSys_Parts2
+Kailh_socket_MX_2.75U
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+2
+2
+SamacSys_Parts2
+Kailh_socket_MX_2U
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+2
+2
+SamacSys_Parts2
+Kailh_socket_MX_6.25U
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+4
+2
+SamacSys_Parts2
+Kailh_socket_MX_6.25U_flippedswitch
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+2
+2
+SamacSys_Parts2
+LTSTS310F3WT
+LTST-S310F3WT-6
+LED
+0
+4
+4
+SamacSys_Parts2
+L_Wuerth_MAPI-2512
+Inductor, Wuerth Elektronik, Wuerth_MAPI-2512, 2.5mmx2.0mm
+inductor Wuerth smd
+0
+2
+2
+SamacSys_Parts2
+MHT150RGBCT
+WL-SFRW REVERSE
+LED
+0
+4
+4
+SamacSys_Parts2
+MountingHole_2.1mm_M2_Pad-Slot
+Mounting Hole 2.2mm, M2
+mounting hole 2.2mm m2
+0
+1
+1
+SamacSys_Parts2
+MountingHole_2.1mm_M2_Pad-Slot-NP
+Mounting Hole 2.2mm, M2
+mounting hole 2.2mm m2
+0
+0
+0
+SamacSys_Parts2
+PEC11R4220KS0024
+PEC11R-4220K-S0024‎-1
+Hardware
+0
+5
+5
+SamacSys_Parts2
+PEC11R4220KS0024-encoderdown
+PEC11R-4220K-S0024‎-1
+Hardware
+0
+5
+5
+SamacSys_Parts2
+PEC11R4220KS0024-kailhcompatible
+PEC11R-4220K-S0024‎-1
+Hardware
+0
+5
+5
+SamacSys_Parts2
+PKMCS
+PKMCS
+Loudspeaker or Buzzer
+0
+2
+2
 SamacSys_Parts2
 SOP50P490X110-10N
 DGS (S-PDSO-G10)
@@ -42147,12 +42504,33 @@ Integrated Circuit
 10
 10
 SamacSys_Parts2
+SOT65P210X110-6N
+SOT323-6L_1
+Integrated Circuit
+0
+6
+6
+SamacSys_Parts2
 SOT95P280X145-6N
 DBV (R-PDSO-G6)
 Integrated Circuit
 0
 6
 6
+SamacSys_Parts2
+SOT95P285X130-5N
+SOT25
+Integrated Circuit
+0
+5
+5
+SamacSys_Parts2
+SW_SPST_TL3342
+Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf
+SPST Tactile Switch
+0
+4
+2
 SamacSys_Parts2
 TC33X-2_1
 TC33X-2_1

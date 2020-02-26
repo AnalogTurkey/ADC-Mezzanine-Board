@@ -35,7 +35,7 @@ SDO
 Text Label 4300 2050 0    60   ~ 0
 SCLK
 $Comp
-L ads7886-rescue:TEST TP1
+L ads7886-rescue:TEST-ads7886-rescue TP1
 U 1 1 5DB9260A
 P 1750 5100
 F 0 "TP1" H 1750 5400 50  0000 C BNN
@@ -48,7 +48,7 @@ $EndComp
 Text Label 1950 5100 0    60   ~ 0
 VIN
 $Comp
-L ads7886-rescue:TEST TP2
+L ads7886-rescue:TEST-ads7886-rescue TP2
 U 1 1 5DB9379A
 P 1750 5350
 F 0 "TP2" H 1750 5650 50  0000 C BNN
@@ -289,7 +289,7 @@ CS
 Text Label 1950 5600 0    60   ~ 0
 PD
 $Comp
-L ads7886-rescue:TEST TP4
+L ads7886-rescue:TEST-ads7886-rescue TP4
 U 1 1 5DCA4EC1
 P 1750 5600
 F 0 "TP4" H 1750 5900 50  0000 C BNN
@@ -300,7 +300,7 @@ F 3 "" H 1750 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ads7886-rescue:TEST TP5
+L ads7886-rescue:TEST-ads7886-rescue TP5
 U 1 1 5DCA4F16
 P 1750 5850
 F 0 "TP5" H 1750 6150 50  0000 C BNN
@@ -713,22 +713,8 @@ Wire Wire Line
 	7750 4800 8200 4800
 Wire Wire Line
 	8200 4600 8200 4800
-Connection ~ 8200 4800
 Wire Wire Line
-	8200 5250 8200 4800
-Wire Wire Line
-	8200 5700 8200 5450
-$Comp
-L 74xGxx:74LVC1G14 U3
-U 1 1 5DE14786
-P 8200 5350
-F 0 "U3" H 8050 5150 50  0000 C CNN
-F 1 "74LVC1G14" H 7900 5050 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-5_HandSoldering" H 8200 5350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 8200 5350 50  0001 C CNN
-	1    8200 5350
-	1    0    0    -1  
-$EndComp
+	8250 5650 8250 5400
 Wire Wire Line
 	7100 5350 7900 5350
 Connection ~ 7100 5350
@@ -782,12 +768,12 @@ CS
 $Comp
 L power:GNDD #PWR011
 U 1 1 5DC22043
-P 8200 5700
-F 0 "#PWR011" H 8200 5450 50  0001 C CNN
-F 1 "GNDD" H 8200 5575 50  0000 C CNN
-F 2 "" H 8200 5700 50  0001 C CNN
-F 3 "" H 8200 5700 50  0001 C CNN
-	1    8200 5700
+P 8250 5650
+F 0 "#PWR011" H 8250 5400 50  0001 C CNN
+F 1 "GNDD" H 8250 5525 50  0000 C CNN
+F 2 "" H 8250 5650 50  0001 C CNN
+F 3 "" H 8250 5650 50  0001 C CNN
+	1    8250 5650
 	1    0    0    -1  
 $EndComp
 Text Label 6550 5350 2    60   ~ 0
@@ -852,4 +838,25 @@ Text Label 2250 3250 2    60   ~ 0
 Wire Wire Line
 	2250 3250 2500 3250
 Connection ~ 2500 3250
+$Comp
+L 74xGxx:74LVC1G240 U3
+U 1 1 5E5503CE
+P 8200 5350
+F 0 "U3" H 8175 5175 50  0000 C CNN
+F 1 "74LVC1G240" H 8175 5084 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5_HandSoldering" H 8200 5350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 8200 5350 50  0001 C CNN
+	1    8200 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 4800 8250 4800
+Wire Wire Line
+	8250 4800 8250 5300
+Connection ~ 8200 4800
+Wire Wire Line
+	8200 5150 8200 5100
+Wire Wire Line
+	8200 5100 7750 5100
+Connection ~ 7750 5100
 $EndSCHEMATC

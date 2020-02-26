@@ -65,9 +65,9 @@ INTERFACE
 Text Notes 1550 6150 0    60   ~ 0
 Test Points
 Text Notes 8150 7650 0    60   ~ 0
-11/14/19
+2/24/20
 Text Notes 10600 7650 0    60   ~ 0
-0.4
+0.5
 $Comp
 L Device:C_Small C2
 U 1 1 5DC143B8
@@ -175,7 +175,7 @@ Text Label 3550 5800 2    60   ~ 0
 Text Label 4800 5800 0    60   ~ 0
 5VD
 Text Notes 7000 7050 0    60   ~ 0
-Rev Notes:\nRemoved ADC buffer, switched to single op amp\nSwitched to RC CS delay circuit\nUpdated to KiCad 5, updated component libraries
+Rev Notes:\nAdded compatiblity for 1G14 and 1G240 inverters
 Text Notes 5750 4550 0    60   ~ 0
 CS TIMING
 Text Notes 4500 2550 0    60   ~ 0
@@ -713,22 +713,8 @@ Wire Wire Line
 	7750 4800 8200 4800
 Wire Wire Line
 	8200 4600 8200 4800
-Connection ~ 8200 4800
 Wire Wire Line
-	8200 5250 8200 4800
-Wire Wire Line
-	8200 5700 8200 5450
-$Comp
-L 74xGxx:74LVC1G14 U3
-U 1 1 5DE14786
-P 8200 5350
-F 0 "U3" H 8050 5150 50  0000 C CNN
-F 1 "74LVC1G14" H 7900 5050 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-5_HandSoldering" H 8200 5350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 8200 5350 50  0001 C CNN
-	1    8200 5350
-	1    0    0    -1  
-$EndComp
+	8250 5650 8250 5400
 Wire Wire Line
 	7100 5350 7900 5350
 Connection ~ 7100 5350
@@ -782,12 +768,12 @@ CS
 $Comp
 L power:GNDD #PWR011
 U 1 1 5DC22043
-P 8200 5700
-F 0 "#PWR011" H 8200 5450 50  0001 C CNN
-F 1 "GNDD" H 8200 5575 50  0000 C CNN
-F 2 "" H 8200 5700 50  0001 C CNN
-F 3 "" H 8200 5700 50  0001 C CNN
-	1    8200 5700
+P 8250 5650
+F 0 "#PWR011" H 8250 5400 50  0001 C CNN
+F 1 "GNDD" H 8250 5525 50  0000 C CNN
+F 2 "" H 8250 5650 50  0001 C CNN
+F 3 "" H 8250 5650 50  0001 C CNN
+	1    8250 5650
 	1    0    0    -1  
 $EndComp
 Text Label 6550 5350 2    60   ~ 0
@@ -852,4 +838,25 @@ Text Label 2250 3250 2    60   ~ 0
 Wire Wire Line
 	2250 3250 2500 3250
 Connection ~ 2500 3250
+$Comp
+L 74xGxx:74LVC1G240 U3
+U 1 1 5E5503CE
+P 8200 5350
+F 0 "U3" H 8175 5175 50  0000 C CNN
+F 1 "74LVC1G240" H 8175 5084 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5_HandSoldering" H 8200 5350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 8200 5350 50  0001 C CNN
+	1    8200 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 4800 8250 4800
+Wire Wire Line
+	8250 4800 8250 5300
+Connection ~ 8200 4800
+Wire Wire Line
+	8200 5150 8200 5100
+Wire Wire Line
+	8200 5100 7750 5100
+Connection ~ 7750 5100
 $EndSCHEMATC
