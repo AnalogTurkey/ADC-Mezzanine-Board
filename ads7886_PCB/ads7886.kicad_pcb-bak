@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.254)
+    (last_trace_width 0.25)
     (user_trace_width 0.1524)
     (user_trace_width 0.254)
     (user_trace_width 0.4064)
@@ -992,7 +992,7 @@
     )
   )
 
-  (gr_text "ADC Mezzanine 0.4" (at 135.128 102.362) (layer F.SilkS)
+  (gr_text "ADC Mezzanine 0.5" (at 135.128 102.362) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text 1 (at 154.686 102.108) (layer F.SilkS)

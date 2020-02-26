@@ -1,0 +1,1 @@
+Some of the images attached here are currently for board version 0.4. Functionally there is minimal difference between this and 0.5; the only major change is that the "not connected" pin on the inverter has been grounded to make the board compatible with both the SN74LVC1G14 and SN74LVC1G240 inverters.
