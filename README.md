@@ -31,7 +31,7 @@ There are 4 test points on the board. **CS** is the chip select (trigger) input 
  ## The Software
 
  This script listens for output data from the ADC and saves it to a file named "ADC_Data.txt".
- As is, connect SCLK to pin 31, HOLD to pin 29, and SDO to pin 33. On the Pi, navigate in the terminal to the directory the script is in, then run "python ADC_Reader.py". The code will begin 
+ As is, connect SCLK to pin 31, HOLD to pin 29, and SDO to pin 33. On the Pi, navigate in the terminal to the directory the script is in, then run "python ADC_Reader.py". 
  
  The code only saves data to the file every once in a while since accessing the file takes a nontrivial amount of time. This can be changed by changing the value of "BufferSize" in the code.
  
