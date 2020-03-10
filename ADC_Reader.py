@@ -30,9 +30,9 @@ bufferSize = 10 # Number of samples to store in buffer before saving to the file
 # Preparing GPIO. 
 
 # Enumerating pin numbers. Change these numbers to change the GPIO pin locations.
-clockPin = 31
-sdoPin = 33
-holdPin = 29 
+clockPin = 13
+sdoPin = 11
+holdPin = 7
 
 # Configuring selected pins as GPIO
 GPIO.setmode(GPIO.BOARD) # Pin numbers are based on the physical pin numbering.
@@ -40,6 +40,7 @@ GPIO.setwarnings(False)
 GPIO.setup(holdPin, GPIO.OUT) # HOLD pin (keeps ADC chip select asserted until sampling is complete, to avoid unintentional shutdown).
 GPIO.output(holdPin, GPIO.LOW) # Keep HOLD low for now since nothing is happening
 GPIO.setup(clockPin, GPIO.OUT) # SCLK (clock) pin
+GPIO.output(clockPin, GPIO.HIGH) #temporarily hold clock high because nothing can go wrong in that state
 # SDO pin. The first 4 bits after a sample starts are all 0, so it's obvious where the data begins if this pin is pulled high.
 GPIO.setup(sdoPin, GPIO.IN, pull_up_down=GPIO.PUD_UP) 
 ADC_file = open ("ADC_file.txt", "a+") # Open the ADC file in append mode. Creates the file if it does not exist.
@@ -64,28 +65,31 @@ def startADC():
 # The next bit read after running this method will be the first valid data bit.
 def waitForData():
 
-    # Python docs are adamant that lists are LIFO and deques should be used for FIFO. Not that it really matters here, but...
-    rawBitDeque = collections.deque([], maxlen=(resolution+4)) # Creates an empty deque of maximum length of one full SDO word.
+    # cycle SCLK to clear the ADC's buffer.
+    i = 0
+    while i < 16: 
+        GPIO.output(clockPin, GPIO.LOW) # Falling edge of SCLK
+        GPIO.output(clockPin, GPIO.HIGH) #Rising edge of SCLK
+        i+=1
+        if not(GPIO.input(sdoPin)): #if there are any 0's while doing this loop, the data block can't be read properly and the program should try clearing the buffer again.
+            i = 0 # because python's for loops are <special>, it's easier to use a while with an iterable so the loop can be reset.
 
     dataDetected = False # Data not detected yet.
-    while not dataDetected: # This loop terminates if it gets its desired 4 bits of 0's on SDO. Otherwise it continues looping.
+    while not dataDetected: # This loop terminates if it detects a 0 on SDO. Otherwise it continues looping.
+        dataDetected = not(GPIO.input(sdoPin)) # If SDO is high, that means nothing is happening and there is no data.
+
+    for i in range(3): #cycle through 3 remaining leading 0's. if any are not 0, return to waiting.
         GPIO.output(clockPin, GPIO.LOW) # Falling edge of SCLK
         GPIO.output(clockPin, GPIO.HIGH) 
-        # Since data is only clocked out on falling clock edges, it's safe to make the measurement after the rising one.
-
-        if GPIO.input(sdoPin): # If SDO is high, that means nothing is happening and there is definitely no data.
-            rawBitDeque.append(1) # puts a "1" at the end of the deque and pops off the element at the other end to keep len<16.
-        else:
-            rawBitDeque.append(0) # puts a "0" at the end of the deque and pops off the element at the other end to keep len<16.
-            # checks if the last 16 bits were 12 1's (inactivity) followed by 4 0's (beginning of data word). 
-            # if so, set dataDetected to True.
-            dataDetected = (list(rawBitDeque) == [1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0])  
+        if GPIO.input(sdoPin): # if there are any 1's this is not a valid data block. Return to waiting.
+            waitForData()
     
 # Method waits for data then saves the ADC output (in mV) to a file.
 def readADC():
     global dataBufferString # Yes, I know it's bad practice. 
     waitForData()
-    GPIO.output(holdPin, GPIO.HIGH) #hold asserted to keep CS asserted while sampling
+    
+    GPIO.output(holdPin, GPIO.HIGH)
     startTime = datetime.now() # Keeps track of how long the sampling takes
     
     # Now to read the next 12 bits and save them to an array.
